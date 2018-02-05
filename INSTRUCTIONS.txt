@@ -1,0 +1,20 @@
+TODO:
+
+Now that you have endpoints in the Spring Boot project that talks to the Database, we
+have one more mandatory piece of functionality to add: the user needs to see all staff.
+But only show the fields/columns for those staff as specified by the user.
+
+The user will select the fields they desire to see. Process their inputs, get the data
+from a new or existing Spring Boot endpoint, then show the data using the components already
+provided in this project.
+
+There are several ways to accomplish this. Talk through one or more ways to give the user
+the functionality they want.  What are the pros/cons of each approach?
+
+____ BONUS:
+
+Add a text-box input to form. This input will accept only positive integers. This number
+will be an input for a staff's ID number in the database table.  When the user presses the
+"Show Selected" button, if there is an ID in the input box, find the user with that ID.
+Still only show the columns selected via the checkboxes. If no user was found with that ID,
+show an alert message indicating so.
